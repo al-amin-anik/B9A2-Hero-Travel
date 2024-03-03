@@ -1,0 +1,517 @@
+@media screen and ((min-width: 992px) and (max-width: 1300px)) {
+    .popular-tour-container {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+        gap: 20px;
+    }
+
+    .popular-tour-container .popular-tour-text {
+        width: 100%;
+        grid-column: 1/span 6;
+        grid-row: 1/span 12;
+    }
+
+    .popular-tour-container .popular-tour-image {
+        width: 100%;
+        grid-column: 7/span 6;
+        grid-row: 1/span 12;
+    }
+
+    .popular-tour-image img {
+        border-radius: 16px;
+    }
+
+    .popular-tour-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .popular-tour-description {
+        margin-top: 10px;
+    }
+
+    .perfect-place-container {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+        gap: 20px;
+    }
+
+    .perfect-place-container .perfect-place-text {
+        width: 100%;
+        grid-column: 1/span 6;
+        grid-row: 1/span 12;
+    }
+
+    .perfect-place-container .perfect-place-image {
+        width: 100%;
+        grid-column: 7/span 6;
+        grid-row: 1/span 12;
+    }
+
+    .perfect-place-image {
+        border-radius: 16px;
+    }
+
+    .perfect-place-container .perfect-place-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;        
+    }
+
+    .perfect-place-container .perfect-place-image video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;       
+        background-repeat: no-repeat;
+    }
+
+    .perfect-place-text h2 {
+        font-size: 2rem;
+        line-height: 40px;
+    }
+
+    .save-up {       
+        top: 280px;
+        right: 10px;
+    }
+
+}
+
+@media screen and ((min-width: 600px) and (max-width: 992px)) {
+    .container {
+        max-width: 90%;
+    }
+
+    .header .header-content .header-title {
+        font-size: 1.2rem;
+    }
+
+    .header .header-content,
+    nav,
+    .destination-text p,
+    .choose-us-text p,
+    .discount-text p,
+    .news-letter-text p,
+    .customer-review-content p,
+    .footer-section p,
+    .footer-line,
+    .video-text,
+    .news-letter-line,
+    .perfect-place-image,
+    .perfect-place-container .perfect-place-text,
+    .news-letter-image img {
+        width: 100%;
+    }
+
+    .header nav ul {
+        margin: 10px auto;
+        gap: 0px;
+        justify-content: space-evenly;
+    }
+
+    .header {
+        flex-direction: column;
+    }
+
+    .header .header-content {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .site-logo {
+        text-align: right;
+    }
+
+    .section-title {
+        font-size: 2.3rem;
+        font-weight: 800;
+        line-height: 60px;
+        color: var(--black-color)
+    }
+
+    .footer-section p,
+    .footer-line {
+        width: 60%;
+    }
+
+    .banner-description {
+        width: 450px;
+        font-size: 0.8rem;
+    }
+
+    .banner .banner-image .banner-form form {
+        display: flex;
+        gap: 10px;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .banner-image {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 400%;
+    }
+
+    .popular-tour-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .popular-tour-container .popular-tour-text {
+        width: 100%;
+        gap: 15px;
+    }
+
+    .popular-tour-container .popular-tour-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .popular-tour-image img {
+        width: 100%;
+    }
+
+    .maldives,
+    .indonesia,
+    .srilanka,
+    .north-amerika,
+    .kashmir,
+    .bangladesh,
+    .bandarban {
+        font-size: 1.1rem;
+    }
+
+    .discount-card-1,
+    .discount-card-2 {
+        position: absolute;
+        width: 93%;
+        margin: auto;
+        height: 300px;
+        top: 180px;
+        left: 25px;
+        right: 25px;
+        border-radius: 16px;
+        border: 2px solid #FFF;
+        background: rgba(255, 255, 255, 0.80);
+        backdrop-filter: blur(2.5px);
+    }
+
+    .perfect-place-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .perfect-place-image>video {
+        width: 100%;
+        height: auto;
+    }
+
+    .news-letter-container {
+        gap: 20px;
+        height: 100%;
+    }
+
+    .news-letter-text {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px;
+        border-radius: 16px;
+        border: 1px solid #FF5400;
+    }
+
+    .news-letter-form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .save-up {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 180px;
+        height: 70px;
+        transform: rotate(-19.628deg);
+        border-radius: 16px;
+        background: #FF5400;
+        position: absolute;
+        bottom: 30px;
+        right: 4px;
+    }
+
+    .news-letter-text>* {
+        margin-bottom: 10px;
+    }
+
+    .save-up h2 {
+        font-size: 1.1rem;
+    }
+
+    .customer-review-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        padding: 10px;
+    }
+
+    .perfect-place-text h2 {     
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .container {
+        max-width: 90%;
+    }
+
+    .header nav ul {
+        display: none;
+    }
+
+    .header .header-content .header-title {
+        font-size: 1rem;
+    }
+
+    nav {
+        width: 20%;
+    }
+
+    .header .header-content {
+        width: 80%;
+    }
+
+    .menu-icon {
+        display: block;
+        text-align: right;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    .destination-text p,
+    .choose-us-text p,
+    .discount-text p,
+    .news-letter-text p,
+    .customer-review-content p,
+    .footer-section p,
+    .footer-line {
+        width: 100%;
+    }
+
+    .banner-description {
+        width: 300px;
+        font-size: 0.8rem;
+    }
+
+    .banner .banner-image .banner-form {
+        width: 90%;
+    }
+
+    .banner .banner-image .banner-form form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .banner .banner-image .banner-form .text-input {
+        width: 100%;
+    }
+
+    .banner-image {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 450%;
+    }
+
+    .discount-item-1 img,
+    .discount-item-2 img {
+        object-fit: cover;
+        border-radius: 15px;
+    }
+
+    .popular-tour-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .popular-tour-container .popular-tour-text {
+        width: 100%;
+        gap: 10px;
+    }
+
+    .popular-tour-container .popular-tour-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .popular-tour-image img {
+        width: 100%;
+    }
+
+    .destination-image-container,
+    .choose-us-image-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .destination-image-container img {
+        height: 176px;
+        object-fit: cover;
+    }
+
+    .maldives,
+    .indonesia,
+    .srilanka,
+    .north-amerika,
+    .kashmir,
+    .bangladesh,
+    .bandarban {
+        font-size: 1.3rem;
+    }
+
+    .popular-tour-description ul,
+    .perfect-place-description ul {
+        padding-left: 20px;
+    }
+
+    .discount-card-1,
+    .discount-card-2 {
+        position: absolute;
+        width: 90%;
+        margin: auto;
+        height: 390px;
+        bottom: 15px;
+        right: 15px;
+        border-radius: 16px;
+        border: 2px solid #FFF;
+        background: rgba(255, 255, 255, 0.80);
+        backdrop-filter: blur(2.5px);
+    }
+
+    .discount-card-2 {
+        left: 15px;
+    }
+
+    .discount-card-1-icon,
+    .discount-card-2-icon {
+        flex-wrap: wrap;
+        margin: 0px 20px;
+        column-gap: 30px;
+        row-gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .discount-card-2-text,
+    .discount-card-1-text {
+        margin: 0px 20px;
+    }
+
+    .perfect-place-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .perfect-place-container .perfect-place-text {
+        width: 100%;
+    }
+
+    .perfect-place-image {
+        width: 100%;
+    }
+
+    .perfect-place-image>video {
+        width: 100%;
+        height: auto;
+    }
+
+    .video-text {
+        width: 100%;
+    }
+
+    .news-letter-container {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .news-letter-text {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .news-letter-line {
+        width: 100%;
+    }
+
+    .news-letter-form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .save-up {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 80px;
+        transform: rotate(-19.628deg);
+        border-radius: 16px;
+        background: #FF5400;
+        position: absolute;
+        bottom: 35px;
+        right: 10px;
+    }
+
+    .news-letter-image img {
+        height: 300px;
+    }
+
+    .news-letter-text>* {
+        margin-bottom: 10px;
+    }
+
+
+    .save-up h2 {
+        font-size: 1.3rem;
+    }
+
+    .customer-review-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        padding: 10px;
+    }
+
+    .footer-section {
+        width: 100%;
+    }
+
+    .perfect-place-text h2 {     
+        line-height: 40px;
+    }
+}
